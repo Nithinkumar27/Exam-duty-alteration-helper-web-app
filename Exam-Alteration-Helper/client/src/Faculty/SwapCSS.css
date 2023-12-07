@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+.crct{
+	background-color:black;
+	margin:10px;
+	padding:10px;
+	border-radius:20px;
+}
+.card {
+	color: white;
+	border-radius: 8px;
+	display: block;
+	margin: 1rem;
+	position: relative;
+	align-items: left;
+	max-width: 400px;
+	background: linear-gradient(315deg, #2b2b2b, #333333);
+}
+.main-content {
+	text-align: -webkit-center;
+}
+.card-content {
+	margin: 24px;
+	text-align: left;
+}
+.swap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+/*   height: 300px; /* Adjust the height as needed */ 
+}
+
+.card-title {
+	margin-block-end: 0px;
+	color: var(--text-color);
+	padding: 24px;
+}
+
+.divButton {
+	background: white;
+	color: black;
+	border-radius: 20px;
+	padding: 8px 32px 8px 32px;
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+
+.plan-name {
+	margin-top: 4px;
+	font-size: 1.1rem;
+}
+.button-container {
+	padding: 20px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: 1190px; /* Adjust width as needed  */
+/*   margin: 10px; Adjust margins as needed */
+}
+
+.accept-button {
+  padding: 10px 80px;
+	margin-right:20px;
+  font-size: 16px;
+  background-color: #5adbb5;
+  color: white;
+  border: none;
+  cursor: pointer;
+	border-radius: 8px;
+}
+.reject-button {
+  padding: 10px 80px;
+  font-size: 16px;
+	margin-left:20px;
+  background-color: #dd7973;
+  color: white;
+  border: none;
+  cursor: pointer;
+	border-radius: 8px;
+}
+
+.accept-button:hover,
+.reject-button:hover {
+  background-color: #45a049;
+}
+
+.plan-amount {
+	font-size: 1.3rem;
+}
+
+.plan-duration {
+	font-size: 0.7rem;
+	margin-top: -8px;
+	color: #b2dfdb;
+}
+
+.plan-cost {
+	text-align: end !important;
+}
+
+.content {
+	text-align: center;
+	justify-content: center;
+	margin-top: 12px;
+}
+
+.description {
+	margin-top: 32px;
+	font-size: 1rem;
+}
+
+.terms {
+	font-size: 0.7rem;
+	color: #b2dfdb; 
+}
+
+.terms-condition {
+	color: white;
+	font-weight: bold;
+}
+
+body {
+	background-color: #303030;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+p {
+	margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/*
+Gradients from https://uigradients.com
+*/
+.hydrogen-card {
+	background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.37turn, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0.37turn, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.pinot-noir {
+background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.37turn, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0.37turn, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.poncho {
+	background: #403A3E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.87turn, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+	min-width: 900px;
+background: linear-gradient(0.87turn, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.namn {
+	background: #a73737;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.37turn, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0.37turn, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.shroom-haze {
+	background: #5C258D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.37turn, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0.37turn, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.kyoto {
+	background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(-0.87turn, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(-0.87turn, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.skyline {
+	background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0.87turn, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0.87turn, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
