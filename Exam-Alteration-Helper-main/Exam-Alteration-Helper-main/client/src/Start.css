@@ -1,0 +1,55 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginForm {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size of the logo as needed */
+    height: 100px;
+  }
+  
+  .optionsContainer {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .employeeOption:hover {
+    background: linear-gradient(to right, #ffbf00, #ff0080); /* Add your desired gradient */
+  }
+  
+  .adminOption:hover {
+    background: linear-gradient(to right, #00b8e2, #0048ff); /* Add your desired gradient */
+  }
+  
